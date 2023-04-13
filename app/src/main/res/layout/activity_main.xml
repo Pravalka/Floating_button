@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add" android:layout_width="0dp" android:layout_height="64dp" android:layout_marginEnd="24dp" android:layout_marginBottom="92dp" android:clickable="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@+id/lock" app:srcCompat="@drawable/ic_action_add" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/clr" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp" android:layout_marginBottom="7dp" android:clickable="true" app:layout_constraintBottom_toTopOf="@+id/add" app:layout_constraintEnd_toEndOf="@+id/add" app:srcCompat="@drawable/ic_action_clr" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="252dp" android:layout_marginEnd="20dp" android:layout_marginBottom="3dp" android:clickable="true" app:layout_constraintBottom_toTopOf="@+id/spkr" app:layout_constraintEnd_toStartOf="@+id/add" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/ic_action_lock" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/spkr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp" android:layout_marginBottom="8dp" android:clickable="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@+id/lock" app:srcCompat="@drawable/ic_action_mic"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>
